@@ -1,0 +1,88 @@
+
+# ðŸŒž Solar Jetbot Project: Agile Affinity Group Handout
+
+## ðŸ§  Affinity Group: Agile for Embedded Systems
+
+Welcome to the affinity group focused on applying **Agile methods** to embedded systems development!  
+We are working on an exciting hands-on project to build and optimize a **Solar Jetbot** that can track the sun in **two degrees of freedom (2DoF)**.
+
+---
+
+## ðŸš€ Project Goal: Sun Tracking System
+
+### ðŸ§© Problem Statement
+
+Given **sunrise and sunset events** and real-time geographic location, develop an algorithm and hardware control system that:
+
+- Tracks the **azimuth** and **elevation** of the sun (2DoF)
+- Optimizes **energy capture** for a solar-powered Jetbot
+- Proves the **optimality** of tracking for daily energy efficiency
+
+---
+
+## ðŸŒ€ Agile Concepts Youâ€™ll Learn
+
+### ðŸ“š Key Concepts
+
+- **User Stories**: Define features from the userâ€™s perspective
+- **Backlog**: Prioritized list of features and tasks
+- **Sprints**: Time-boxed development iterations (1-2 weeks)
+- **Story Points**: Relative effort assigned to user stories
+- **Velocity**: Rate at which a team delivers story points per sprint
+- **Epic**: A larger body of work that spans multiple stories
+
+### ðŸ›  Example User Story
+
+```
+As a system designer,
+I want to compute solar azimuth and elevation based on time and location,
+So that the panel can align optimally with the sun.
+```
+
+---
+
+## ðŸ“¦ Jira Epics and User Stories (Snapshot)
+
+| Story ID | Summary                                                 | Sprint   | Story Points |
+|----------|---------------------------------------------------------|----------|---------------|
+| ST-101   | Compute solar azimuth and elevation                     | Sprint 1 | 5             |
+| ST-102   | Control azimuth and elevation motors                    | Sprint 2 | 8             |
+| ST-103   | Real-time control loop for tracking                     | Sprint 2 | 3             |
+| ST-104   | Simulate sun tracking over a full day                   | Sprint 3 | 5             |
+| ST-105   | Prove the optimality of the tracking algorithm          | Sprint 3 | 5             |
+| ST-106   | Log energy efficiency based on orientation              | Sprint 3 | 3             |
+
+---
+
+## ðŸ¤– Hardware Involved
+
+- Jetbot (NVIDIA Jetson Nano)
+- 2x Servo motors for 2DoF solar panel movement
+- GPS module or manually entered coordinates
+- RTC for time synchronization
+- Optional: Solar irradiance sensor
+
+---
+
+## ðŸ§ª Activities and Roles
+
+### ðŸ‘¨â€ðŸ’» Code-Centric Group
+- Write Python/C++ code for angle computation and control
+- Integrate with Jetbot hardware and sensors
+
+### ðŸŽ¨ Design-Centric Group
+- Define and refine user stories and epics
+- Design simulations and UI for performance visualization
+
+---
+
+## ðŸ“ˆ Agile Practice
+
+- **Daily Standups** (15 mins): Share progress, blockers
+- **Sprint Planning**: Select stories for the upcoming sprint
+- **Retrospective**: Reflect on what went well, what to improve
+- **Demo**: Present the Jetbot tracking system at the end of each sprint
+
+---
+
+Letâ€™s build a smarter, sun-aware robot, one story at a time! ðŸŒžðŸ¤–
